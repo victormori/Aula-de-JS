@@ -32,7 +32,7 @@ console.log("7 x 6 =" , numero * 6);
 console.log("7 x 7 =" , numero * 7);
 console.log("7 x 8 =" , numero * 8);
 console.log("7 x 9 =" , numero * 9);
-console.log("7 x 10 =" , numero * 10);
+console.log("7 x 10 =", numero * 10);
 
 // Atividade4
 
@@ -49,8 +49,8 @@ console.log("Contagem encerrada!");
 
 let listadecompras = ["chocolate", "leite", "ovos", "creme de cabelo", "oléo capilar"];
 
-for (let item of listadecompras) {
-    console.log(item);
+for (let i = 0; i < listadecompras.length; i++) {
+    console.log(listadecompras[i]);
 }
 
 // Atividade6
