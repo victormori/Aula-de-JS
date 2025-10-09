@@ -45,3 +45,14 @@ let listaNomes =["Victor", "Luis", "Ana"];
 listaNomes.shift("Alex");
 console.log(listaNomes);
 
+//Set timeout
+
+console.log("1. Início")
+
+
+setTimeout(() => {
+    console.log("Demora...")
+}, 2000   )
+
+
+

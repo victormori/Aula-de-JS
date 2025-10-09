@@ -13,19 +13,31 @@ calcularDobro(4)
 
 //Atividade3
 
+let variavelg1 =""
+const variavelg2 =""
+
+function teste() {
+
+}
+
 //Atividade4
 
-let nota1 = 4;
-let nota2 = 4;
-let nota3 = 4;
-
-function verificarAprovação(nota) {
-    console.log("média:" , nota)
-    if (let i = nota1 + nota2 + nota3; i / 3; i >= 7) {
-        console.log("aluno aprovado")
-    } else {
-        console.log("Aluno Reprovado")
-    }
+function verificarAprovaçao(nota1, nota2, nota3) {
+    let media = (nota1 + nota2 + nota3) / 3;
     
-}
-verificarAprovação(i)
+    if (media >= 7) {
+        console.log("Aluno Aprovado com a media:", media)
+    } else {
+        console.log("Aluno Reprovado com media:", media)
+    }
+ 
+}      
+
+verificarAprovaçao(6, 6, 9)
+
+
+
+
+  
+
+
